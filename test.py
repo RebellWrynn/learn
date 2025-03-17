@@ -1,4 +1,4 @@
-def greeting(name :str) ->str:
-    return 'hello' + name
+def mypy_test_2(age: int | float) -> int:
+    return age
 
-greeting(1)
+mypy_test_2(15.6)
